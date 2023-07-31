@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 export default function Category({ category: { id, title, image } }) {
   return (
     <a
-      href="#"
+      href="#/"
       className="flex flex-col group items-center gap-y-2 text-center p-4 hover:bg-purple-50"
     >
       <img

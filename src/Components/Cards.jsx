@@ -6,7 +6,7 @@ const Cards = () => {
 
   useEffect(() => {
     setCards(cardsData);
-  });
+  }, []);
   return (
     <div className="grid grid-cols-3 gap-x-4">
       {cards.length &&

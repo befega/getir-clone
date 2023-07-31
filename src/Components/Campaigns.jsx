@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import banners from "../api/banners.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
